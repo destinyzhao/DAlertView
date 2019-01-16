@@ -181,6 +181,8 @@ const static CGFloat kTitleFontSize               = 18;
     msgLabel.textColor = _messageColor?_messageColor:[UIColor blackColor];
     msgLabel.text = _message;
     msgLabel.numberOfLines = 0;
+    msgLabel.textAlignment = NSTextAlignmentCenter;
+    msgLabel.backgroundColor = [UIColor whiteColor];
     [contentView addSubview:msgLabel];
     
     return contentView;

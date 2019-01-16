@@ -22,7 +22,7 @@
 
 - (IBAction)btnAction:(id)sender {
     
-    DAlertView *alert =[DAlertView alertWithTitle:@"我是一个标题" message:@"文本文本文本文本文本文本文本文本文本文本文本文本文本文"];
+    DAlertView *alert =[DAlertView alertWithTitle:@"我是一个标题" message:@"文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文"];
     
     DAlertAction *action1 = [DAlertAction actionWithTitle:@"确定" style:DAlertActionStyleDefault handler:^(DAlertAction * _Nonnull action) {
         NSLog(@"点击了确定");
