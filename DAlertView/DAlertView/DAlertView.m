@@ -20,6 +20,7 @@ const static CGFloat kTitleFontSize               = 18;
 
 @interface DAlertView ()
 
+
 // action数组
 @property (nonatomic, strong) NSMutableArray *actions;
 /**头部View*/
@@ -85,7 +86,7 @@ const static CGFloat kTitleFontSize               = 18;
     _dialogView = [self createDialogView];
     self.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.3];
     [self addSubview:_dialogView];
-     [[[[UIApplication sharedApplication] windows] firstObject] addSubview:self];
+     [[[UIApplication sharedApplication] keyWindow] addSubview:self];
 }
 
 - (void)dismiss
