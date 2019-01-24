@@ -26,4 +26,6 @@ DAlertView *alert =[DAlertView alertWithTitle:@"我是一个标题" message:@"�
 
 ![avatar](https://upload-images.jianshu.io/upload_images/2416132-e24bcbb6d6e050a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/828/format/webp)
 
+```
 pod 'DAlertView'
+```
