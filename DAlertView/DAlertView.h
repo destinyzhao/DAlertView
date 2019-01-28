@@ -51,7 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, strong) UIFont *messageFont;
 /** 对齐方式(包括主标题和副标题) */
 @property(nonatomic, assign) NSTextAlignment textAlignment;
-/** 点击背景是否消失（用于只点击按钮才能消失） */
+/** 点击背景是否消失（用于只点击按钮才能消失*/
 @property(nonatomic, assign) Boolean isTapDismiss;
 
 + (instancetype)alertWithTitle:(NSString *)title message:(NSString *)message;
