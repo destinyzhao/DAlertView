@@ -56,6 +56,10 @@ const static CGFloat kTitleFontSize               = 18;
     _message = message;
     _animationType = animationType;
     _customAlertView = customAlertView;
+    _isTapDismiss = YES;
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapGesture:)];
+    [self addGestureRecognizer:tap];
     
     return self;
 }
@@ -74,6 +78,12 @@ const static CGFloat kTitleFontSize               = 18;
     _messageColor = [UIColor grayColor];
     _textAlignment = NSTextAlignmentCenter;
     _lineColor = [UIColor lightGrayColor];
+}
+
+- (void)tapGesture:(UIGestureRecognizer *)gesture{
+    if (_isTapDismiss) {
+        [self dismiss];
+    }
 }
 
 // 添加action

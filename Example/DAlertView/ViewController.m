@@ -33,9 +33,11 @@
     }];
     
     alert.titleColor = [UIColor brownColor];
+    alert.isTapDismiss = NO;
     alert.messageColor = [UIColor blueColor];
     action1.titleColor = [UIColor blueColor];
     action2.titleColor = [UIColor redColor];
+    
     
     [alert addAction:action1];
 //    [alert addAction:action2];
